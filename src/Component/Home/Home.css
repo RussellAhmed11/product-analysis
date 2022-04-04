@@ -2,6 +2,31 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
+    margin-top: 20px;
+}
+.home-conaiten-left{
+    margin-top: 150px;
+    margin-left: 90px;
+
+}
+.home-conaiten-left h1{
+    font-size: 40px;
+    color:orange;
+    margin-left: -90px;
+}
+.home-conaiten-left p{
+    font-size: 20px;
+    text-align: justify;
+}
+.home-conaiten-left button{
+    font-size: 30px;
+    color: orange;
+    border: 2px solid orange;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: block;
+
 }
 .home-container-right img{
     width: 90%;

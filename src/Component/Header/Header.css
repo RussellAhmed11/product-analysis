@@ -1,0 +1,14 @@
+.nav_bar{
+    margin-top: 10px;
+}
+.nav_bar a{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.nav_bar a:hover{
+    text-decoration: underline;
+    color:rgb(193, 34, 34);
+    
+}

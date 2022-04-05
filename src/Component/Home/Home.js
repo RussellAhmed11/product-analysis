@@ -1,7 +1,12 @@
 import React from 'react';
+import UseHook from '../../UseHook/UseHook';
 import "../img/t shirt.jpg"
 import "./Home.css"
+import "../Reviews/Reviews.css"
+import { Line } from 'recharts';
+import { Link } from 'react-router-dom';
 const Home = () => {
+    const [reviews, setreviews] = UseHook() 
     return (
         <div>
              <section>
@@ -19,7 +24,20 @@ const Home = () => {
             <section>
                 <div className="review-container">
                     <h1>Custom Review(3)</h1>
+                    <div className='card-container'>
+                    {
+                      reviews.slice(0,3).map(review=><div className='card'>
+                      <div className='card-img'>
+                          <img src={review.img} alt="" />
+                      </div>
+                      <h3>Name:{review.name}</h3>
+                      <p>{review.review}</p>
+                      <p><small>{review.rating}</small></p>
+                  </div>)  
+                    }
+                    </div>
                 </div>
+                <button className='See-more-btn'><Link to="/reviews">See More Reviews</Link></button>
             </section>
         </div>
     );

@@ -33,3 +33,9 @@
     margin: auto;
     height: 90%;
 }
+.See-more-btn a{
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+}

@@ -5,4 +5,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### `T-Shirt zone`
 
 
-Live Link [https://resilient kelpie-0de128.netlify.app](https://resilient kelpie-0de128.netlify.app)
+Live Link [https://resilient kelpie-0de128.netlify.app]()

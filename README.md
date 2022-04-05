@@ -1,8 +1,18 @@
 # Getting Started with Create React App
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 
 ### `T-Shirt zone`
 
+### Deployment
 
-Live Link [https://resilient kelpie-0de128.netlify.app]('https://resilient kelpie-0de128.netlify.app')
+Live link: [https://resilient-kelpie-0de128.netlify.app/](https://resilient-kelpie-0de128.netlify.app/)
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://resilient kelpie-0de128.netlify.app) for more information.
